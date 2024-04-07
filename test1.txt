@@ -1,2 +1,5 @@
 This is test1.
 This is test1 second line.
+This is test1 third line.
+Logo alignment is centered.
+New line is added in MergeConflict branch.
