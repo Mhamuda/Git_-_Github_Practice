@@ -1,4 +1,4 @@
-# Command line commands (Windows)
+# <b>Command line commands (Windows)</b>
 
 ### Clear screen
 ```
@@ -94,9 +94,15 @@ type write extra text here >> fileName.txt
 ### Recommended youtube video
 [Windows Command Line Crash Course in Bangla](https://www.youtube.com/watch?v=kbyNSrhxuuI)
 
+<br>
+<br>
+<br>
 
+# <b>Git and Github commands</b>
 
-# Git and Github commands
+<img src="./images/git-level.png">
+
+<br>
 
 ### Git version check
 ```
@@ -230,10 +236,107 @@ git clone REPO_URL
 
 ### To push your changes to a remote Git repository
 ```
-git push remote_name branch_name
+git push -u remote_name branch_name
 ```
 
 ### To pull changes from a remote Git repository into your local repository
 ```
 git pull remote_name branch_name
 ```
+### Creating branch
+```
+git branch branchName
+```
+
+### Switching branch
+```
+git checkout branchName
+```
+
+### Creating and switching branch
+```
+git checkout -b branchName
+```
+
+### Deleting branch
+```
+git branch -d branchName
+```
+
+### Merging branch
+```
+git checkout main
+git merge branchName
+```
+
+### To see all branches
+```
+git branch
+```
+### Github issues (commit message)
+```
+message here #issueNumber
+```
+It will notify the issue number in the issue section. Close the issue automatically when the commit is merged.
+
+### Two way merging (fast-forward)
+```
+git checkout main
+git merge branchName
+```
+
+### Three way merging 
+```
+git merge targetBranchName
+```
+It will create a new commit with two parent commits.
+
+### Merge conflict
+```
+<<<<<<< HEAD
+code
+=======
+code
+>>>>>>> branchName
+```
+Resolve the conflict and commit again.
+(Delete the code that is not needed.Then add, commit and push the changes.)
+
+
+### How to contribute to a project on Github:
+1. Fork the repository
+2. Clone the repository
+3. Create a branch
+4. Make changes
+5. Commit the changes
+6. Push the changes
+7. Create a pull request
+8. Review the code
+9. Merge the pull request
+
+
+### How to work as a collaborator on Github :
+1. Clone the repository
+2. Create a branch
+3. Make changes
+4. Commit the changes
+5. Push the changes
+6. Create a pull request
+7. Review the code
+8. Merge the pull request
+
+### How to publish your website on Github :
+1. Create a repository
+2. Add html, css, js files
+3. Go to settings
+4. Scroll down to Github Pages
+5. Select the source (main branch)
+6. Save the changes
+7. Copy the link
+8. Paste the link in the browser
+
+
+### Recommended youtube video
+[Git & GitHub complete course Bangla (Beginner to Advanced)](https://www.youtube.com/playlist?list=PLgH5QX0i9K3qAW8DT6I0XOxC23qnA4FL-)
+
+
