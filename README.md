@@ -56,7 +56,7 @@ code .
 echo. > "file name.extention"
 ```
 
-or
+Or,
 ```
 type null > "file name.extension"
 ```
@@ -112,7 +112,6 @@ git --version
 ## Git configuration
 ```
 git config --global user.name "userName"
-
 ```
 ```
 git config --global user.email "userEmail@email.com"
@@ -137,7 +136,7 @@ git status
 git add fileName
 ```
 
-To add all files at once
+### To add all files at once
 
 ```
 git add .
@@ -167,31 +166,27 @@ git commit -am "message here"
 ```
 git log
 ```
-or to see few details
-
+### To see commit history in one line
 ```
 git log --oneline
 ```
 
-### Uncommit
-```
-git reset
-```
+### Uncommiting
 
-#### 1. Undo the act of commiting & leaving everyting else intact
-```
-git reset --soft HEAD^
-```
+- ####  Undo the act of commiting & leaving everyting else intact
+    ```
+    git reset --soft HEAD^
+    ```
 
-#### 2. Undo the act of commiting & also removing from the stagging area
-```
-git reset HEAD^
-```
+- #### Undo the act of commiting & also removing from the stagging area
+    ```
+    git reset HEAD^
+    ```
 
-#### 3. Completely undo it, throwing away all uncommitted changes resetting everything to the previous commit
-```
-git reset --hard HEAD^
-```
+- #### Completely undo it, throwing away all uncommitted changes resetting everything to the previous commit
+    ```
+    git reset --hard HEAD^
+    ```
 
 ### Show commit details
 ```
@@ -218,7 +213,7 @@ temp/
 git remote
 ```
 
-### to check which remote repository (URL) is connected 
+### To check which remote repository (URL) is connected 
 ```
 git remote -v
 ```
@@ -227,7 +222,7 @@ git remote -v
 ```
 git remote add name REMOTE_URL
 ```
-name = origin or others
+Here, name can be origin or other name.
 
 ### Clone a repository
 ```
