@@ -114,7 +114,15 @@ git --version
 git config --global user.name "userName"
 ```
 ```
-git config --global user.email "userEmail@email.com"
+git config --global user.email "userEmail@gmail.com"
+```
+
+### Change global username & email
+```
+git config --global user.name "PUT_NEW_USER_NAME_HERE"
+```
+```
+git config --global user.name "PUT_NEW_USER_NAME_HERE"
 ```
 
 ### Show git user name and email
@@ -329,7 +337,6 @@ Resolve the conflict and commit again.
 6. Save the changes
 7. Copy the link
 8. Paste the link in the browser
-
 
 ### Recommended youtube video
 [Git & GitHub complete course Bangla (Beginner to Advanced)](https://www.youtube.com/playlist?list=PLgH5QX0i9K3qAW8DT6I0XOxC23qnA4FL-)
